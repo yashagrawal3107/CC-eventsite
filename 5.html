@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+#row{
+  align-items: center;
+  position:sticky;
+  float: none;
+
+}
+
+.column {
+  float:left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 50px 50px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    background-color: green;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #273746;
+  padding: 10px 50px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+body{
+  background-color: #1B2631;
+  background: fade(#1B2631,3%);
+  color: white;
+  font-family: 'Product Sans', sans-serif;
+  align-content: center;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: 'Product Sans',sans-serif;
+  color: #DC7633;
+}
+h2{
+  color: #DC7633;
+}
+.header {
+  background-color: #1B2631;
+  background: fade(#1B2631,3%);
+  color: fade(#1B2631 ,80%);
+  font-family: 'Product Sans', serif;
+}
+.footer {
+  background-color:#273746 ;
+  padding: 10px;
+  text-align: center;
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #0000;
+  line-height: 50px;
+  font-family: verdana;
+}
+nav ul{
+  float:left;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#273746;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 30px;
+}
+img{
+  width: 25px;
+  height: 250px;
+}
+</style>
+</head>
+<body>
+  <div class="header">
+		<nav>
+
+				<ul>
+          <li><a href="index.html">Home</a></li>
+					<li><a href="3.html">Events</a></li>
+					<li><a href="4.html">Projects</a></li>
+					<li><a href="5.html">Team</a></li>
+					<li><a href="6.html">About Us</a></li>
+				</ul>
+		</nav>
+</div>
+<br>
+<div id="abc">
+<big><h1>Our Team</h1></big>
+<br>
+</div>
+<center>
+<div class="row">
+
+  <div class="column">
+    <div class="card">
+      <img src="team.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">Designer</p>
+        <p>example@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="team1.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">Art Director</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="rock.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="team.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="team1.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="rock.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="team.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</center>
+
+<hr>
+<div class="footer">
+	<p align="left"><font style="color:#DC7633;" size="5px">Contact us:</font>
+		<br>
+		<br> <font style="color:#DC7633">Email:</font> <font style="color:white">xyz@gmail.com</font>
+		<br> <font style="color:#DC7633">Phone:</font> <font style="color:white">9090909090</font>
+	<br><font style="color:#DC7633">Address:</font> <font style="color:white">Indian Institute of Information technology Vadodara</font>
+</p>
+
+</body>
+</html>
