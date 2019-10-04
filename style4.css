@@ -1,7 +1,17 @@
 * {
   box-sizing: border-box;
 }
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    background-color: #1B2631;
+  }
+}
 img{
    width:250px;
    height:250px;
