@@ -1,2 +1,4 @@
 # CC-Website
-IIITV Coding Club Website to keep a track on its events and projects.
+Unofficial IIITV Coding Club Static Website to keep a track on its events and projects.
+
+Link to the website :  https://yashagrawal3107.github.io/CC-eventsite/
